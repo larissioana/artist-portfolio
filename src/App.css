@@ -1,0 +1,17 @@
+/* Container that will get the circular animation */
+.page-transition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f5f5;
+  z-index: 100;
+  clip-path: circle(0% at var(--x) var(--y)); /* Set clip-path with dynamic position */
+  transition: clip-path 1.5s ease-in-out;
+}
+
+/* Expanding circle */
+.page-transition.expand {
+  clip-path: circle(150% at var(--x) var(--y)); /* Expand to full screen */
+}

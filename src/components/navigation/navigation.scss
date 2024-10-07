@@ -1,0 +1,28 @@
+.nav 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid black;
+
+    .nav-left,
+    .nav-right
+    {
+        display: flex;
+        align-items: center;
+
+        a 
+        {
+            color: inherit;
+            text-decoration: none;
+            background: rgba(225, 219, 219, 0.3);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid #1d1c1c;
+            border-left: 1px solid #1d1c1c;
+            border-right: 1px solid #1d1c1c;
+            text-align: center;
+            padding: 1rem 2rem;
+            font-size: 1.3rem;
+        }
+    }
+}
