@@ -26,3 +26,8 @@ body
   background-color: #1f1e1e;
   border-radius: 6px; 
 }
+
+img 
+{
+  image-rendering: -webkit-optimize-contrast;
+}

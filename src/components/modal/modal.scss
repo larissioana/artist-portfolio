@@ -24,8 +24,8 @@
         gap: 1rem;
         align-items: center;
         justify-content: flex-start;
-        position: fixed;
-        top: 0rem;
+        position: absolute;
+        top: 4rem;
         overflow-x: auto;
         overflow-y: hidden;
         width: 100%;
@@ -44,9 +44,9 @@
     {
         cursor: pointer;
         position: fixed;
-        top: 14rem;
+        top: 1rem;
         z-index: 10;
-        left: 2rem;
+        right: 2rem;
         font-size: 1.5rem;
         text-align: center;
         color: rgb(27, 26, 26);
@@ -128,16 +128,3 @@
     }
     }   
 }
-
-@media screen and (max-width: 600px)
-{
-  .modal-overlay
-  {
-    .close
-    {
-        top: 14rem;
-        font-size: 1rem;
-    }
-  }
-}
-
