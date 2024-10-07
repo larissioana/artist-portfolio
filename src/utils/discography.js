@@ -3,6 +3,8 @@ import img2 from '../assets/2.jpg'
 import img3 from '../assets/4.jpeg'
 import img4 from '../assets/3.jpeg'
 import img5 from '../assets/5.jpeg'
+import img6 from '../assets/6.jpeg'
+import img7 from '../assets/7.jpeg'
 
 export const discography = [
     {
@@ -473,6 +475,164 @@ export const discography = [
                 id: 22,
                 name: "People = Shit - Live",
                 duration: "03:54"
+            }
+        ]
+    },
+    {
+        id: 6,
+        name: "Iowa",
+        year: "2001",
+        image: img6,
+        color: "#4078A8",
+        songNames: [
+            {
+                id: 1,
+                name: "(5 15)",
+                duration: "00:59"
+            },
+            {
+                id: 2,
+                name: "People = Shit",
+                duration: "03:35"
+            },
+            {
+                id: 3,
+                name: "Disasterpiece",
+                duration: "05:08"
+            },
+            {
+                id: 4,
+                name: "My Plague",
+                duration: "03:40"
+            },
+            {
+                id: 5,
+                name: "Everything Ends",
+                duration: "04:14"
+            },
+            {
+                id: 6,
+                name: "The Heretic Anthem",
+                duration: "04:14"
+            },
+            {
+                id: 7,
+                name: "Gently",
+                duration: "04:54"
+            },
+            {
+                id: 8,
+                name: "Left Behind",
+                duration: "04:01"
+            },
+            {
+                id: 9,
+                name: "The Shape",
+                duration: "03:37"
+            },
+            {
+                id: 10,
+                name: "I Am Hated",
+                duration: "02:37"
+            },
+            {
+                id: 11,
+                name: "Skin Ticket",
+                duration: "06:41"
+            },
+            {
+                id: 12,
+                name: "New Abortion",
+                duration: "03:36"
+            },
+            {
+                id: 13,
+                name: "Metabolic",
+                duration: "03:59"
+            },
+            {
+                id: 14,
+                name: "Iowa",
+                duration: "15:05"
+            }
+        ]
+    },
+    {
+        id: 7,
+        name: "Vol. 3 The Subliminal Verses",
+        image: img7,
+        year: "2004",
+        color: "#D86857",
+        songNames: [
+            {
+                id: 1,
+                name: "Prelude 3.0",
+                duration: "03:57"
+            },
+            {
+                id: 2,
+                name: "The Blister Exists",
+                duration: "05:19"
+            },
+            {
+                id: 3,
+                name: "Three Nil",
+                duration: "04:48",
+            },
+            {
+                id: 4,
+                name: "Duality",
+                duration: "04:12"
+            },
+            {
+                id: 5,
+                name: "Opium of the People",
+                duration: "03:12"
+            },
+            {
+                id: 6,
+                name: "Circle",
+                name: "04:22"
+            },
+            {
+                id: 7,
+                name: "Welcome",
+                duration: "03:15"
+            },
+            {
+                id: 8,
+                name: "Vermillion",
+                duration: "05:16"
+            },
+            {
+                id: 9,
+                name: "Pulse of the Maggots",
+                duration: "04:19"
+            },
+            {
+                id: 10,
+                name: "Before I Forget",
+                duration: "04:38"
+            },
+            {
+                id: 11,
+                name: "Vermillion, Pt. 2",
+                duration: "03:44"
+            },
+            {
+                id: 12,
+                name: "The Nameless",
+                duration: "04:28"
+            },
+            {
+                id: 13,
+                name: "The Virus of Life",
+                duration: "05:25"
+            },
+            {
+                id: 14,
+                name: "Danger - Keep Away",
+                duration: "03:13"
             }
         ]
     }

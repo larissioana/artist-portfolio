@@ -42,7 +42,7 @@ const AlbumsPage = () => {
                         return <div key={album.id}>
                             <img
                                 style={{
-                                    filter: selectedImage === album.image ? "none" : "grayscale(100%)"
+                                    filter: selectedImage === album.image ? "none" : "grayscale(50%)"
                                 }}
                                 key={album.id}
                                 onClick={() => handleAlbum(album, album.image)}
@@ -58,6 +58,9 @@ const AlbumsPage = () => {
             <div className="title-flex-container">
                 <h1>Discography</h1>
                 <Link to="/" className="link"> {"- Return home"}</Link>
+            </div>
+            <div className="about-artists">
+                <p>Slipknot is an American heavy metal band <br /> formed in Des Moines, Iowa, <br /> in 1995 by percussionist Shawn Crahan, <br /> former vocalist Anders Colsefni, <br /> and bassist Paul Gray.</p>
             </div>
             {
                 isModalOpen &&

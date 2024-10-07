@@ -24,12 +24,11 @@
   left: 0;
   z-index: -1;
   height: 100vh;
-  filter: grayscale(100%);
 }
 .description
 {
   width: 100%;
- background: rgba(225, 219, 219, 0.3);
+  background: rgba(225, 219, 219, 0.3);
   backdrop-filter: blur(8px); 
   overflow: hidden;
   white-space: nowrap;

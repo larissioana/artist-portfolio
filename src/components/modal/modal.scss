@@ -23,8 +23,14 @@
         display: flex;
         gap: 1rem;
         align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+        width: 100%;
+        background-color:#17181a;
+        padding: 0rem 0.5rem;
 
         img 
         {
@@ -37,10 +43,14 @@
     .close 
     {
         cursor: pointer;
-        position: absolute;
-        top: 1rem;
-        right: 2rem;
-        font-size: 2rem;
+        position: fixed;
+        top: 14rem;
+        z-index: 10;
+        left: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+        color: rgb(27, 26, 26);
+        font-weight: bold;
     }
 
 
@@ -58,7 +68,7 @@
     justify-content: center;
     gap: 2rem;
     width: 100%;
-    padding-top: 3rem;
+    padding-top: 9rem;
 
     .album-container
     {
@@ -118,3 +128,16 @@
     }
     }   
 }
+
+@media screen and (max-width: 600px)
+{
+  .modal-overlay
+  {
+    .close
+    {
+        top: 14rem;
+        font-size: 1rem;
+    }
+  }
+}
+

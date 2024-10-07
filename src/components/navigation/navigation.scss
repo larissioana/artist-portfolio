@@ -4,6 +4,9 @@
     justify-content: space-between;
     align-items: flex-start;
     border-top: 1px solid black;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
 
     .nav-left,
     .nav-right

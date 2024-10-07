@@ -1,8 +1,7 @@
 .album-page 
 {
-  height: 130vh;
+  height: 100vh;
   background: #bfbebe;
-/*   background: rgb(18, 17, 17); */
   color: #1f1f1f;
   clip-path: circle(0% at 0% 100%); 
   transition: clip-path 1s ease-in-out;
@@ -11,7 +10,16 @@
   gap: 2rem;
   align-items: center;
   justify-content: flex-start;
-  padding: 3rem 1rem 1rem 1rem;
+  padding: 3rem 0rem 1rem 0rem;
+
+  .about-artists 
+  {
+  
+    p 
+    {
+      text-align: end;
+    }
+  }
 
   .title-flex-container
   {
@@ -24,24 +32,28 @@
     .link 
     {
       color: inherit;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       text-transform: uppercase;
+      color: rgb(122, 8, 8);
     }
 
     h1 
     {
-      font-size: clamp(2rem, 4vw, 3rem);
+      font-size: clamp(4rem, 9vw, 9rem);
     }
   }
   .discography-container 
   {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-    position: relative;
+    background: #17181a;
+    width: 100%;
+    padding: 0rem .5rem;
+    overflow-x: auto;
+    overflow-y: hidden;
 
 
     img 
@@ -50,14 +62,6 @@
       width: 200px;
       height: 200px;
       cursor: pointer;
-      transition: width .7s ease;
-      &:hover 
-      {
-        width: 300px;
-        height: 200px;
-        filter: none!important;
-      }
-
     }
   }
 }
@@ -65,6 +69,14 @@
   .album-page.open
   {
     clip-path: circle(150% at 0% 100%);
+  }
+
+  @media screen and (max-width: 600px)
+  {
+    .album-page
+    {
+      height: 120vh;
+    }
   }
 
   

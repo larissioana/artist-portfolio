@@ -33,7 +33,7 @@ const Modal = ({ onClose, selectedAlbum, selectedImage, setSelectedImage, setSel
                                 onClick={() => handleAlbum(album.image, album)}
                                 data-tooltip-id="my-tooltip" data-tooltip-content={album.name.toUpperCase()}
                                 style={{
-                                    opacity: selectedImage === album.image ? "1" : "0.3",
+                                    opacity: selectedImage === album.image ? "1" : "0.5",
                                     transition: "opacity .4s ease-in"
                                 }}
                             />
@@ -42,7 +42,7 @@ const Modal = ({ onClose, selectedAlbum, selectedImage, setSelectedImage, setSel
                     })
                 }
             </div>
-            <p className="close" onClick={onClose}>X</p>
+            <p className="close" onClick={onClose}>Close here</p>
             <div className="modal-content">
                 <h1>Slipknot</h1>
                 <div className="album-container">

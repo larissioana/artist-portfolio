@@ -1,10 +1,16 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './header.scss';
 import { useNavigate } from 'react-router-dom';
+import { Blurhash } from 'react-blurhash';
 
 const Header = () => {
     const imageToPreload = '/img.webp';
     const navigate = useNavigate();
+    const [isLoaded, setIsLoaded] = useState(false);
+
+    const handleImageLoad = () => {
+        setIsLoaded(true);
+    };
 
     const handleClick = () => {
         navigate('/discography');
@@ -29,7 +35,26 @@ const Header = () => {
                     CELEBRATING 25 YEARS OF 'SLIPKNOT' |
                 </div>
             </div>
-            <img className="header-img" src={imageToPreload} alt="slipknot" />
+            {!isLoaded && (
+                <Blurhash
+                    hash="LuKBE,t7W=s:.mofRjWVaKj[M{jZ"
+                    width="100%"
+                    height="900px"
+                    resolutionX={32}
+                    resolutionY={32}
+                    punch={1}
+                    style={{ position: 'absolute', top: 0, left: 0 }}
+                />
+            )}
+            <img
+                className="header-img"
+                style={{
+                    display: isLoaded ? 'block' : 'none',
+                }}
+                src={imageToPreload}
+                alt="slipknot"
+                onLoad={handleImageLoad}
+            />
             <button onClick={handleClick} className="btn">View discography</button>
         </div>
     )
