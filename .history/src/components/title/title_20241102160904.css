@@ -1,0 +1,23 @@
+.title 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0.3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+}
+    .link
+    {
+      background: linear-gradient(180deg, rgb(98, 28, 28), rgb(110, 3, 3));
+      text-transform: lowercase;
+      transition: all .5s ease-in;
+      -webkit-background-clip: text; 
+      background-clip: text;
+      color: transparent;
+      font-weight: bolder;
+      text-decoration: none;
+      text-shadow: 8px 1px 1px rgb(205, 11, 11);
+    } 

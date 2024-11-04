@@ -1,0 +1,34 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+body 
+{
+  overflow-x: hidden;
+  font-family: "MedievalSharp", cursive;
+  background: rgb(30, 29, 29);
+  color: rgb(198, 198, 198);
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+ display: none;
+}
+
+img 
+{
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.link 
+{
+  color: inherit;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: rgb(186, 31, 31);
+  text-shadow: 3px 5px 10px rgb(222, 215, 215);
+}

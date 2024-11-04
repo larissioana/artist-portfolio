@@ -1,0 +1,15 @@
+.tour-container
+{
+    padding: 2rem;
+
+    h1 
+    {
+        font-size: clamp(2rem, 4vw, 4rem);
+        padding-top: 4rem;
+        text-transform: uppercase;
+    }
+.tour-wrapper
+{
+    display: flex;
+}
+}

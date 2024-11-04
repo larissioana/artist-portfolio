@@ -1,0 +1,12 @@
+.gallery-container
+{
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.gallery-item 
+{
+    transition: transform .5s ease, opacity 1s ease;
+    object-fit: cover;
+}

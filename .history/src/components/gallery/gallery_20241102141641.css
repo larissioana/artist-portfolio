@@ -1,0 +1,7 @@
+.gallery-container
+{
+    position: relative;
+    background: red;
+    height: 90vh;
+    overflow: hidden;
+}

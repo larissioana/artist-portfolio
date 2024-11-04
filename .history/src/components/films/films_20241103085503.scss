@@ -1,0 +1,20 @@
+.films-container
+{
+    padding: 2rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .film 
+    {
+        img 
+        {
+            object-fit: cover;
+            width: 300px;
+            height: 350px;
+            object-position: top;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.films-container
+{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 3rem;
+    column-gap: 1rem;
+    background: rgb(16, 15, 15);
+
+    .film 
+    {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        img 
+        {
+            object-fit: cover;
+            width: 280px;
+            height: 350px;
+            object-position: top;
+        }
+
+        h3, p
+        {
+            width: 280px;
+        }
+
+        p 
+        {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+.link-wrapper 
+{
+    margin-top: 0rem;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 508px)
+{
+    .films-container
+    {
+        padding-top: 5rem;
+        .film 
+        {
+            img 
+            {
+                width: 200px;
+                height: 250px;
+            }
+
+            h3, p
+            {
+                width: 200px;
+            }
+        }
+
+    }
+   
+}
