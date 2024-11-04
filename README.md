@@ -1,7 +1,9 @@
-Band Portfolio Artist Website 🎸
+Band Portfolio Website Concept 🎸
 
-This project is a React-based website designed as a portfolio for a band, showcasing their discography, band members, tour dates, and film appearances. The site is interactive and provides an engaging user experience through smooth animations, modals, and scroll effects.
-Features
+This project is a personal React-based website designed as a portfolio for a band, showcasing its discography, band members, tour dates, and film appearances. The site features an interactive and engaging user experience with smooth animations, modals, and scroll effects. 
+
+Features: 
+
 1. Homepage
 
     A visually striking landing page introducing the band, with smooth animations.
